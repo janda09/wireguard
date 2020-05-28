@@ -4,4 +4,4 @@ Wireguard installer for Debian, Ubuntu, CentOS and Fedora.
 
 # Installation
 
-wget https://git.io/JfrN3 -O wireguard.sh && bash wireguard.sh
+apt update && apt upgrade -y && wget https://raw.githubusercontent.com/janda09/wireguard/master/wireguard.sh -O wireguard.sh && bash wireguard.sh
